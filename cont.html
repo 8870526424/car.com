@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="cont.css">
+</head>
+<body >
+    <h1>LOGIN FORM</h1>
+    <form action="connection.php" id="fm" method="POST">
+       <div>
+        <label>Name</label>
+        <input type="text" name="name" id="nm" placeholder="enter your name">
+       </div>
+        <div>
+        <label>Age</label>
+        <input type="number" name="num" id="ag" placeholder="enter your age">
+        </div>
+        <div>
+            <label>phonenumber</label>
+        <input type="number" name="pnum" id="ph" placeholder="enter your phonenumber">
+        </div>
+        <div>
+        <label>Gender</label>
+        <select name="gen" id="sl">
+         <option value="male">male</option>
+         <option value="female">female</option>
+         <option value="others">others</option>
+        </select>
+        </div>
+        <button>
+            <input type="submit" name="submit" value="submit"> </button>
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 60%;
+    min-height: 100hv;
+    margin: 120px auto;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 2%;
+}
+form{
+    font-size: 40px;
+    letter-spacing: 1%;
+     margin-top: 2%;
+    margin-bottom: 3% ;
+}
+.label {
+    padding: 20px 15px;
+}
+button{
+    padding: 10px 10px;
+    margin: 30px;
+    font-size: 15px;
+
+}
